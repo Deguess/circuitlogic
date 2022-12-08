@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: rgb(75, 70, 114);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-7 {
+  color: aliceblue;
+  text-shadow: 5px 5px 20px rgb(34, 34, 34);
+}
+
+container {
+  background-color: aliceblue;
+}
+
+p#antiquewhite {
+  color: antiquewhite;
+  text-shadow: 5px 5px 20px rgb(34, 34, 34);
+}
+
+a#botao {
+  box-shadow: 0px 2px 3px white;
+  background-color: rgb(235, 246, 255, 50%);
+  transform: translateY(5px);
+}
+
+a#botao:hover {
+  box-shadow: 0px 5px 10px white;
+  transition: all 0.35s ease;
+}
+
+p#paragrafohero,
+a#resmart-nav {
+  color: antiquewhite;
+  text-shadow: 5px 5px 15px rgb(34, 34, 34);
+}
+
+.hero {
+  background-image: url(../A3/milad-fakurian-tUF--C9oOuE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card-effect {
+  box-shadow: 0px 8px 22px;
+  background-color: rgb(150, 60, 183);
+  padding: 25px;
+  transition: all 0.35s ease;
+  border-radius: 10px;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.iconbox {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  color: blueviolet;
+  font-size: 32px;
+  border-radius: 100px;
+  flex: none;
+}
+
+.team-member img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  width: 34px;
+  height: 34px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px solid rgb(126, 126, 126);
+  color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 1px;
+  transition: all 0, 4s ease;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.social-icons a:hover {
+  color: antiquewhite;
+  background-color: transparent;
+  border-color: antiquewhite;
+}
+
+div#containertime {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 20%);
+  box-shadow: 0px 5px 20px white;
+}
