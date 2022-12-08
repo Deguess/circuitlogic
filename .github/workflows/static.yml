@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ deguess.github.io/circuitlogic/Landing%20Page.html }}
+      url: ${{ simulogic.io/index.html }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
